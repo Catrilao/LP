@@ -1,74 +1,88 @@
 from src.lexer import lexer
-from src.parser import parser
-from src.analizador_semantico import AnalizadorSemantico
+from src.parser import parser, ParseError
+from src.analizador_semantico import AnalizadorSemantico, ErrorSemantico
 from src.simulador import Simulador
 import json
 import sys
-
-MOSTRAR_AST = "--ast" in sys.argv
-MOSTRAR_TABLA = "--tabla" in sys.argv
-MOSTRAR_LOGS = "--no_logs" not in sys.argv
+import argparse
 
 
 def mostrar_ast(ast):
     print("=" * 60)
     print("ÁRBOL DE SINTAXIS ABSTRACTA (MOSTRAR_AST)")
     print("=" * 60)
-    print(json.dumps(ast, indent=2, ensure_ascii=False))
-    print()
+    print(json.dumps(ast, indent=4, ensure_ascii=False))
 
 
-def mostrar_errores_warnings(errores, warnings):
+def mostrar_errores_warnings(errores, warnings, mostrar_warnings):
     if errores:
         print(f"\n{len(errores)} error(es) encontrado(s):")
         for error in errores:
             print(f"\t- {error}")
 
-    if warnings:
+    if warnings and mostrar_warnings:
         print(f"\n{len(warnings)} warning(s):")
         for warning in warnings:
             print(f"\t - {warning}")
 
 
-def main(ruta_archivo: str) -> None:
+def main(
+    ruta_archivo, mostrar_ast_flag, mostrar_tabla, mostrar_logs, mostrar_warnings
+) -> None:
     with open(ruta_archivo, "r", encoding="utf-8") as file:
         contenido = file.read()
 
-    ast = parser.parse(contenido, lexer=lexer)
-    if not ast:
-        print("ERROR: Análisis sintáctico falló")
-        exit(1)
+    try:
+        ast = parser.parse(contenido, lexer=lexer)
+        analizador = AnalizadorSemantico()
+        analizador.analizar(ast)
+    except ParseError as e:
+        print(e)
+        sys.exit(2)
+    except ErrorSemantico as e:
+        print(e)
+        sys.exit(20)
 
-    if MOSTRAR_AST:
+    if mostrar_ast_flag:
         mostrar_ast(ast)
 
-    analizador = AnalizadorSemantico()
-    analizador.analizar(ast)
-
-    if MOSTRAR_TABLA:
+    if mostrar_tabla:
         print(analizador.tabla_simbolos)
 
-    mostrar_errores_warnings(analizador.errores, analizador.warnings)
+    mostrar_errores_warnings(analizador.errores, analizador.warnings, mostrar_warnings)
 
     if analizador.errores:
         sys.exit(1)
 
-    if MOSTRAR_LOGS:
+    if mostrar_logs:
         print("\nTURNOS")
         print("=" * 50)
 
-    simulador = Simulador(ast, MOSTRAR_LOGS)
+    simulador = Simulador(ast, mostrar_logs)
     reporte = simulador.simular()
     print(reporte)
 
 
+def parse_args():
+    parser_arg = argparse.ArgumentParser(prog="python -m src.main")
+    parser_arg.add_argument("ruta_archivo", help="ruta al archivo de comandos (.txt)")
+    parser_arg.add_argument(
+        "--ast", action="store_true", help="Mostrar el Árbol de Sintaxis Abstracta"
+    )
+    parser_arg.add_argument(
+        "--tabla", action="store_true", help="Mostrar la tabla de símbolos"
+    )
+    parser_arg.add_argument(
+        "--no_logs", action="store_true", help="Desactivar logs de turnos"
+    )
+    parser_arg.add_argument(
+        "--no_warnings", action="store_true", help="Desactivar warnings"
+    )
+    return parser_arg.parse_args()
+
+
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Uso: python -m src.main <ruta_al_archivo_de_comandos.txt>", end="")
-        print(" [--ast] [--tabla] [--no_logs]")
-        print("\nOpciones:")
-        print("  --ast       Mostrar el Árbol de Sintaxis Abstracta")
-        print("  --tabla     Mostrar la tabla de símbolos")
-        print("  --no_logs   Desactivar logs de turnos")
-        sys.exit(1)
-    main(sys.argv[1])
+    args = parse_args()
+    mostrar_logs = not args.no_logs
+    mostrar_warnings = not args.no_warnings
+    main(args.ruta_archivo, args.ast, args.tabla, mostrar_logs, mostrar_warnings)
