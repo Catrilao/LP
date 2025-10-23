@@ -55,8 +55,7 @@ class Luchador:
             return
 
         self.st = max(0, self.st - combo_costo)
-        for accion in combo_acciones:
-            oponente._recibir_daño(combo_daño)
+        oponente._recibir_daño(combo_daño)
 
     def _recibir_daño(self, cantidad: int) -> None:
         self.hp = max(0, self.hp - cantidad)
