@@ -1,26 +1,27 @@
 from src.tabla_simbolos import TablaSimbolos
 
 
+class ErrorSemantico(Exception):
+    pass
+
+
 class AnalizadorSemantico:
     def __init__(self) -> None:
+        self.warnings = []
+        self.tabla_simbolos = TablaSimbolos()
+
+    def analizar(self, ast):
         self.errores = []
         self.warnings = []
         self.tabla_simbolos = TablaSimbolos()
 
-    def analizar(self, result):
-        self.errores = []
-        self.warnings = []
-        self.tabla_simbolos = TablaSimbolos()
-
-        luchadores = result.get("luchadores")
+        luchadores = ast.get("luchadores")
 
         for luchador in luchadores:
             self._construir_tabla(luchador)
 
         for luchador in luchadores:
             self._validar_luchador(luchador)
-
-        self._actualizar_tipos_turnos(result)
 
     def _construir_tabla(self, luchador):
         luchador_nombre = luchador.get("nombre")
@@ -52,17 +53,21 @@ class AnalizadorSemantico:
 
     def _validar_stats(self, stats, luchador_nombre):
         if "hp" not in stats:
-            self._agregar_error(f"[{luchador_nombre}] Falta el parámetro 'hp' en stats")
+            self._levantar_excepcion_error(
+                f"({luchador_nombre}): Falta el parámetro 'hp' en stats"
+            )
         elif stats["hp"] <= 0:
-            self._agregar_error(
-                f"[{luchador_nombre}] 'hp' debe ser un número positivo, actual: {stats['hp']}"
+            self._levantar_excepcion_error(
+                f"({luchador_nombre}): 'hp' debe ser un número positivo, actual: {stats['hp']}"
             )
 
         if "st" not in stats:
-            self._agregar_error(f"[{luchador_nombre}] Falta el parámetro 'st' en stats")
+            self._levantar_excepcion_error(
+                f"({luchador_nombre}): Falta el parámetro 'st' en stats"
+            )
         elif stats["st"] <= 0:
-            self._agregar_error(
-                f"[{luchador_nombre}] 'st' debe ser un número positivo, actual: {stats['st']}"
+            self._levantar_excepcion_error(
+                f"({luchador_nombre}): 'st' debe ser un número positivo, actual: {stats['st']}"
             )
 
     def _validar_acciones(self, acciones, luchador_nombre):
@@ -74,16 +79,22 @@ class AnalizadorSemantico:
                 config = accion.get("config", {})
 
                 if accion_nombre in acciones_dict:
-                    self._agregar_error(
-                        f"[{luchador_nombre}] Acción duplicada: '{accion_nombre}'"
+                    self._levantar_excepcion_error(
+                        f"({luchador_nombre}): Acción duplicada: '{accion_nombre}'"
                     )
 
                 if tipo_accion == "bloqueo":
                     if config:
-                        self._agregar_error(
-                            f"[{luchador_nombre}] Bloqueo '{accion_nombre}' no debe llevar configuración"
+                        self._levantar_excepcion_error(
+                            f"({luchador_nombre}): Bloqueo '{accion_nombre}' no debe llevar configuración"
                         )
                 else:
+                    NUMERO_ACCIONES_CONFIG = 5
+                    if len(config) != NUMERO_ACCIONES_CONFIG:
+                        self._levantar_excepcion_error(
+                            f"({luchador_nombre}): '{accion_nombre}' debe tener {NUMERO_ACCIONES_CONFIG} configuraciones"
+                        )
+
                     self._validar_parametros_accion(
                         config, accion_nombre, luchador_nombre
                     )
@@ -106,18 +117,18 @@ class AnalizadorSemantico:
 
         for parametro in parametros_obligatorios:
             if parametro not in config:
-                self._agregar_error(
-                    f"[{luchador_nombre}] Acción '{accion_nombre}' no tiene el parámetro: '{parametro}'"
+                self._levantar_excepcion_error(
+                    f"({luchador_nombre}): Acción '{accion_nombre}' no tiene el parámetro: '{parametro}'"
                 )
 
         if config["daño"] <= 0:
-            self._agregar_error(
-                f"[{luchador_nombre}] 'daño' debe ser un número positivo, actual: {config['daño']}"
+            self._levantar_excepcion_error(
+                f"({luchador_nombre}): 'daño' debe ser un número positivo, actual: {config['daño']}"
             )
 
         if config["costo"] <= 0:
-            self._agregar_error(
-                f"[{luchador_nombre}] 'costo' debe ser un número positivo, actual: {config['costo']}"
+            self._levantar_excepcion_error(
+                f"({luchador_nombre}): 'costo' debe ser un número positivo, actual: {config['costo']}"
             )
 
     def _validar_combos(self, combos, acciones_dict, luchador_nombre):
@@ -129,14 +140,14 @@ class AnalizadorSemantico:
             acciones = combo.get("acciones")
 
             if nombre_combo in nombres_combos:
-                self._agregar_error(
-                    f"[{luchador_nombre}] Combo duplicado: '{nombre_combo}'"
+                self._levantar_excepcion_error(
+                    f"({luchador_nombre}): Combo duplicado: '{nombre_combo}'"
                 )
             nombres_combos.add(nombre_combo)
 
             if st_req <= 0:
-                self._agregar_error(
-                    f"[{luchador_nombre}] 'st_req' debe ser un número positivo, actual: {st_req}"
+                self._levantar_excepcion_error(
+                    f"({luchador_nombre}): 'st_req' debe ser un número positivo, actual: {st_req}"
                 )
 
             costo_total = 0
@@ -144,15 +155,15 @@ class AnalizadorSemantico:
                 simbolo = self.tabla_simbolos.buscar(accion_nombre, luchador_nombre)
 
                 if not simbolo:
-                    self._agregar_error(
-                        f"[{luchador_nombre}] Combo '{nombre_combo}': "
+                    self._levantar_excepcion_error(
+                        f"({luchador_nombre}): Combo '{nombre_combo}': "
                         f"acción '{accion_nombre}' no existe"
                     )
                 elif accion_nombre in acciones_dict:
                     accion_info = acciones_dict[accion_nombre]
                     if accion_info["tipo"] == "bloqueo":
-                        self._agregar_error(
-                            f"[{luchador_nombre}] Combo '{nombre_combo}': "
+                        self._levantar_excepcion_error(
+                            f"({luchador_nombre}): Combo '{nombre_combo}': "
                             f"no puede incluir bloqueos ('{accion_nombre}')"
                         )
                     else:
@@ -160,37 +171,12 @@ class AnalizadorSemantico:
 
             if costo_total != st_req:
                 self._agregar_warning(
-                    f"[{luchador_nombre}] Combo '{nombre_combo}': "
+                    f"({luchador_nombre}): Combo '{nombre_combo}': "
                     f"costo total ({costo_total}) es diferente de st_req ({st_req})"
                 )
 
-    def _actualizar_tipos_turnos(self, result: dict):
-        simulacion = result.get("simulacion", {})
-        turnos = simulacion.get("turnos", {})
-
-        for nombre_luchador, ataques in turnos.items():
-            for ataque in ataques:
-                if ataque["tipo"] == "usa":
-                    accion = ataque["accion"]
-                    simbolo = self.tabla_simbolos.buscar(accion, nombre_luchador)
-                    if simbolo and simbolo.tipo == "combo":
-                        ataque["tipo"] = "combo"
-
-                elif ataque["tipo"] == "condicional":
-                    if ataque["bloque_si"]["tipo"] == "usa":
-                        accion_si = ataque["bloque_si"]["accion"]
-                        simbolo = self.tabla_simbolos.buscar(accion_si, nombre_luchador)
-                        if simbolo and simbolo.tipo == "combo":
-                            ataque["bloque_si"]["tipo"] = "combo"
-
-                    if ataque["bloque_no"]["tipo"] == "usa":
-                        accion_no = ataque["bloque_no"]["accion"]
-                        simbolo = self.tabla_simbolos.buscar(accion_no, nombre_luchador)
-                        if simbolo and simbolo.tipo == "combo":
-                            ataque["bloque_no"]["tipo"] = "combo"
-
-    def _agregar_error(self, mensaje):
-        self.errores.append(mensaje)
+    def _levantar_excepcion_error(self, mensaje):
+        raise ErrorSemantico(f"[Error Semántico] {mensaje}")
 
     def _agregar_warning(self, mensaje):
         self.warnings.append(mensaje)
