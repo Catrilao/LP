@@ -2,7 +2,7 @@ from __future__ import annotations
 
 
 class Luchador:
-    def __init__(self, nombre, hp, st, acciones, combos) -> None:
+    def __init__(self, nombre, hp, st, acciones, combos, logs_activos) -> None:
         self.nombre = nombre
         self.hp_inicial = hp
         self.hp = hp
@@ -10,19 +10,20 @@ class Luchador:
         self.st = st
         self.acciones = acciones
         self.combos = combos
+        self.logs_activos = logs_activos
 
     def esta_vivo(self):
         return self.hp > 0
 
     def ejecutar_accion(self, nombre_accion: str, oponente: Luchador) -> None:
         if nombre_accion not in self.acciones:
-            print(f"Error. {self.nombre} no tiene {nombre_accion}.")
+            self.log(f"Error. {self.nombre} no tiene {nombre_accion}.")
 
         costo_accion = self.acciones[nombre_accion]["costo"]
         daño_accion = self.acciones[nombre_accion]["daño"]
 
         if self.st < costo_accion:
-            print(
+            self.log(
                 f"Error. {self.nombre} no tiene energia suficiente para {nombre_accion}."
             )
 
@@ -31,7 +32,7 @@ class Luchador:
 
     def ejecutar_combo(self, nombre_combo: str, oponente: Luchador) -> None:
         if nombre_combo not in self.combos:
-            print(f"Error. {self.nombre} no tiene el combo {nombre_combo}")
+            self.log(f"Error. {self.nombre} no tiene el combo {nombre_combo}")
             return
 
         combo = self.combos[nombre_combo]
@@ -41,14 +42,14 @@ class Luchador:
 
         for accion in combo_acciones:
             if accion not in self.acciones:
-                print(f"Error. {accion} no existe en el combo {nombre_combo}")
+                self.log(f"Error. {accion} no existe en el combo {nombre_combo}")
                 return
 
         if self.st < combo_costo:
             primera_accion = combo_acciones[0]
-            print(
-                f"Warning: Energía insuficiente para el combo {nombre_combo}"
-                f"Ejecutando primera acción simple: {primera_accion}"
+            self.log(
+                f"Warning: Energía insuficiente para el combo {nombre_combo}\n"
+                f"Ejecutando primera acción simple: {primera_accion}\n"
             )
             self.ejecutar_accion(primera_accion, oponente)
             return
@@ -65,3 +66,7 @@ class Luchador:
 
     def __str__(self) -> str:
         return f"{self.nombre}: HP={self.hp}/{self.hp_inicial}. ST={self.st}/{self.st_inicial}"
+
+    def log(self, mensaje):
+        if self.logs_activos:
+            print(mensaje)
