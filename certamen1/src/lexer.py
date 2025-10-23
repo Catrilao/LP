@@ -71,7 +71,7 @@ def t_COMMENT(t):
 
 
 def t_ID(t):
-    r"[a-zA-ZnN_][a-zA-ZñÑ_0-9]*"
+    r"[a-zA-ZñÑ_][a-zA-ZñÑ_0-9]*"
     t.type = keywords.get(t.value.lower(), "ID")
     return t
 
