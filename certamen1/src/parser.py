@@ -31,11 +31,33 @@ def p_luchador_def(p):
 
 
 def p_stats_def(p):
-    """stats_def : STATS IPAREN HP IGUAL NUMBER COMA ST IGUAL NUMBER DPAREN PUNCOM"""
-    p[0] = {
-        "hp": p[5],
-        "st": p[9],
-    }
+    """stats_def : STATS IPAREN stats_lista DPAREN PUNCOM"""
+    p[0] = p[3]
+
+
+def p_stats_lista(p):
+    """stats_lista : stats_lista COMA stat
+    | stat"""
+    if len(p) == 4:
+        p[0] = {**p[1], **p[3]}
+    else:
+        p[0] = p[1]
+
+
+def p_stat(p):
+    """stat : hp_def
+    | st_def"""
+    p[0] = {**p[1]}
+
+
+def p_hp_def(p):
+    """hp_def : HP IGUAL NUMBER"""
+    p[0] = {"hp": p[3]}
+
+
+def p_st_def(p):
+    """st_def : ST IGUAL NUMBER"""
+    p[0] = {"st": p[3]}
 
 
 def p_acciones_def(p):
@@ -74,7 +96,7 @@ def p_acciones_subgrupo(p):
 
 
 def p_accion_config(p):
-    """accion : ID IPAREN config DPAREN"""
+    """accion : ID IPAREN config_lista DPAREN"""
     p[0] = {"nombre": p[1], "config": p[3]}
 
 
@@ -83,17 +105,47 @@ def p_bloqueo(p):
     p[0] = {"nombre": p[1], "config": {}}
 
 
-def p_config(p):
-    """
-    config : DANO IGUAL NUMBER COMA COSTO IGUAL NUMBER COMA ALTURA IGUAL tipo_altura COMA FORMA IGUAL tipo_forma COMA GIRATORIA IGUAL bool
-    """
-    p[0] = {
-        "daño": p[3],
-        "costo": p[7],
-        "altura": p[11],
-        "forma": p[15],
-        "giratoria": p[19],
-    }
+def p_config_lista(p):
+    """config_lista : config_lista COMA config_accion
+    | config_accion"""
+    if len(p) == 4:
+        p[0] = {**p[1], **p[3]}
+    else:
+        p[0] = p[1]
+
+
+def p_config_accion(p):
+    """config_accion : dano_config
+    | costo_config
+    | altura_config
+    | forma_config
+    | giratoria_config"""
+    p[0] = {**p[1]}
+
+
+def p_dano_config(p):
+    """dano_config : DANO IGUAL NUMBER"""
+    p[0] = {"daño": p[3]}
+
+
+def p_costo_config(p):
+    """costo_config : COSTO IGUAL NUMBER"""
+    p[0] = {"costo": p[3]}
+
+
+def p_altura_config(p):
+    """altura_config : ALTURA IGUAL tipo_altura"""
+    p[0] = {"altura": p[3]}
+
+
+def p_forma_config(p):
+    """forma_config : FORMA IGUAL tipo_forma"""
+    p[0] = {"forma": p[3]}
+
+
+def p_giratoria_config(p):
+    """giratoria_config : GIRATORIA IGUAL bool"""
+    p[0] = {"giratoria": p[3]}
 
 
 def p_tipo_altura(p):
@@ -241,13 +293,16 @@ def p_operador_logico(p):
     p[0] = p[1]
 
 
+class ParseError(Exception):
+    pass
+
+
 def p_error(p):
     if p:
-        print(
-            f"[Error Sintáctico] Token inesperado '{p.value}' (tipo: {p.type}) en línea {p.lineno}'"
-        )
+        msg = f"[Error Sintáctico] Token inesperado '{p.value}' (tipo: {p.type}) en línea {p.lineno}'"
     else:
-        print("[Error Sintáctico] Fin de archivo inesperado")
+        msg = "[Error Sintáctico] Fin de archivo inesperado"
+    raise ParseError(msg)
 
 
 DEBUG_MODE = "--debug" in sys.argv
