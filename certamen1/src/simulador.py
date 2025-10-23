@@ -127,7 +127,7 @@ class Simulador:
 
         if tipo == "usa":
             accion = instruccion.get("accion")
-            print(f"{luchador_actual.nombre} ataca a {oponente.nombre} con {accion}")
+            self.log(f"{luchador_actual.nombre} ataca a {oponente.nombre} con {accion}")
 
             if accion in luchador_actual.combos:
                 luchador_actual.ejecutar_combo(accion, oponente)
