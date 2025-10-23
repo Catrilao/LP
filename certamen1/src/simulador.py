@@ -60,6 +60,7 @@ class Simulador:
                 combos=combos,
                 hp=luchador_stats.get("hp"),
                 st=luchador_stats.get("st"),
+                logs_activos=self.logs_activos,
             )
 
             self.luchadores[luchador_nombre] = luchador
@@ -67,17 +68,20 @@ class Simulador:
     def simular(self):
         self.inicializar()
 
-        luchador_inicial = self.config["inicia"]
-        luchador1_nombre = self.config["luchador1"]
-        luchador2_nombre = self.config["luchador2"]
+        luchador_inicial: Luchador = self.config["inicia"]
+        luchador1_nombre: str = self.config["luchador1"]
+        luchador2_nombre: str = self.config["luchador2"]
 
-        luchador1 = self.luchadores[luchador1_nombre]
-        luchador2 = self.luchadores[luchador2_nombre]
+        luchador1: Luchador = self.luchadores[luchador1_nombre]
+        luchador2: Luchador = self.luchadores[luchador2_nombre]
+
+        self.log(f"Estado inicial: {luchador1}")
+        self.log(f"Estado inicial: {luchador2}\n")
 
         luchador_actual = None
-        turno_actual = 0
+        turno_actual = 1
         while (
-            turno_actual < self.config["turnos_max"]
+            turno_actual <= self.config["turnos_max"]
             and luchador1.esta_vivo()
             and luchador2.esta_vivo()
         ):
@@ -96,11 +100,10 @@ class Simulador:
                     luchador_actual = luchador1
                     oponente = luchador2
 
-            self.log(f"\n TURNO {turno_actual + 1} - {luchador_actual.nombre}")
+            self.log(f"\n\n        TURNO {turno_actual} - {luchador_actual.nombre}")
 
             self.ejecutar_turno(luchador_actual, oponente)
-
-            self.log(f"Estado: {luchador1}")
+            self.log(f"\nEstado: {luchador1}")
             self.log(f"Estado: {luchador2}")
 
             turno_actual += 1
@@ -124,6 +127,8 @@ class Simulador:
 
         if tipo == "usa":
             accion = instruccion.get("accion")
+            print(f"{luchador_actual.nombre} ataca a {oponente.nombre} con {accion}")
+
             if accion in luchador_actual.combos:
                 luchador_actual.ejecutar_combo(accion, oponente)
             else:
