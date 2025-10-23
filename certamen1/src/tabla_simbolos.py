@@ -23,6 +23,13 @@ class TablaSimbolos:
         self.pila_scopes.append(nombre_scope)
         return True
 
+    def scope_salir(self):
+        if len(self.pila_scopes) <= 1:
+            self.scope_actual = "global"
+            return
+        self.pila_scopes.pop()
+        self.scope_actual = self.pila_scopes[-1]
+
     def insertar(self, nombre, tipo):
         if nombre in self.tabla[self.scope_actual]:
             self.errores.append(
