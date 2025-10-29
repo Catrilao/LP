@@ -2,3 +2,5 @@ __pycache__/
 venv/
 **/parsetab.py
 *.out
+*.zip
+*.exe
