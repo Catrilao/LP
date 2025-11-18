@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"os"
 	"simulador/internal"
@@ -12,6 +13,13 @@ func main() {
 	numWorkers := flag.Int("num_workers", 4, "Número de hilos workers")
 	totalEventosExternos := flag.Int("num_eventos_ext", 50, "Número de eventos externos que se generarán")
 	archivoDestino := flag.String("destino", "simulacion.log", "Archivo de salida de los logs")
+
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Uso: simulador [opciones]\n")
+		fmt.Fprintf(os.Stderr, "Opciones:\n")
+		flag.PrintDefaults()
+	}
+
 	flag.Parse()
 
 	logFile, err := os.Create(*archivoDestino)
