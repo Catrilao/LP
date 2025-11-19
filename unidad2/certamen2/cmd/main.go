@@ -7,6 +7,7 @@ import (
 	"os"
 	"simulador/internal"
 	"sync"
+	"time"
 )
 
 func main() {
@@ -21,6 +22,7 @@ func main() {
 	}
 
 	flag.Parse()
+	inicio := time.Now()
 
 	logFile, err := os.Create(*archivoDestino)
 	if err != nil {
@@ -51,4 +53,6 @@ func main() {
 	wg.Add(1)
 	go schedulerInstance.Run(&wg)
 	wg.Wait()
+	duracion := time.Since(inicio)
+	fmt.Printf("Tiempo total de simulación con %d workers: %v\n", *numWorkers, duracion)
 }
