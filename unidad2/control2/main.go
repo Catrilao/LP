@@ -18,9 +18,10 @@ func main() {
 	flag.Parse()
 
 	// Se fuerza a que siempre se ejecute la función `EncontrarPrimos`
-	if *ramaGanadora == "a" {
+	switch *ramaGanadora {
+	case "a":
 		*umbral = -10
-	} else if *ramaGanadora == "b" {
+	case "b":
 		*umbral = 1000000000
 	}
 
