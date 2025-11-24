@@ -20,6 +20,8 @@ func main() {
 	// Se fuerza a que siempre se ejecute la función `EncontrarPrimos`
 	if *ramaGanadora == "a" {
 		*umbral = -10
+	} else if *ramaGanadora == "b" {
+		*umbral = 1000000000
 	}
 
 	start := time.Now()
