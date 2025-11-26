@@ -58,3 +58,17 @@ hermano(X, Y) :-
     (padre(P, X), padre(P, Y);
      madre(M, X), madre(M, Y)),
     X \= Y.
+
+tio(X, Y) :- padre(P, Y), hermano(X, P).
+tio(X, Y) :- madre(M, Y), hermano(X, M).
+
+tia(X, Y) :- padre(P, Y), hermano(X, P).
+tia(X, Y) :- madre(M, Y), hermano(X, M).
+
+ancestro(X, Y) :- padre(X, Y).
+ancestro(X, Y) :- madre(X, Y).
+ancestro(X, Y) :- padre(X, Z), ancestro(Z, Y).
+ancestro(X, Y) :- madre(X, Z), ancestro(Z, Y).
+
+descendiente(X, Y) :- ancestro(Y, X).
+
