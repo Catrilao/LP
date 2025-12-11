@@ -1,12 +1,11 @@
 generar indice:
-python build_index.py
+python crear_indice.py
 
 limpiar indice
 python limpia_indice.py
 
-
 ejecutar buscador:
-python search_engine.py
+python buscador.py
 
 ejemplo
 love baby

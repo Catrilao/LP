@@ -23,7 +23,7 @@ def load_index(path):
                     documentos = set(parts[1:])
                     index[palabra] = documentos
     except FileNotFoundError:
-        print("Error: No se encontró index.txt. Genéralo primero con AWK.")
+        print("Error: No se encontró index.txt.")
         sys.exit(1)
 
     return index
