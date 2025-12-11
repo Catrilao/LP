@@ -1,5 +1,3 @@
-import os
-
 def limpiar_indice():
     # Leer stopwords
     with open("stopwords.txt", "r", encoding="utf-8") as archivo:
@@ -28,5 +26,6 @@ def limpiar_indice():
         f.writelines(nuevas_lineas)
 
     print("Índice limpio de stopwords.")
+
 
 limpiar_indice()

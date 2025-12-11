@@ -4,30 +4,29 @@ import sys
 def load_stopwords(path):
     """Carga stopwords desde archivo."""
     try:
-        with open(path, 'r', encoding='utf-8') as f:
+        with open(path, "r", encoding="utf-8") as f:
             return set(f.read().split())
-    except:
-        print("⚠️ Advertencia: No se encontró stopwords.txt")
+    except FileNotFoundError:
+        print("Advertencia: No se encontró stopwords.txt")
         return set()
 
 
 def load_index(path):
-    """Carga index.txt en memoria como diccionario palabra → set(documentos)"""
+    """Carga index.txt en memoria como diccionario palabra -> set(documentos)"""
     index = {}
     try:
-        with open(path, 'r', encoding='utf-8') as f:
+        with open(path, "r", encoding="utf-8") as f:
             for line in f:
                 parts = line.strip().split()
                 if parts:
                     palabra = parts[0]
                     documentos = set(parts[1:])
                     index[palabra] = documentos
-    except:
-        print(" Error: No se encontró index.txt. Genéralo primero con AWK.")
+    except FileNotFoundError:
+        print("Error: No se encontró index.txt. Genéralo primero con AWK.")
         sys.exit(1)
 
     return index
-
 
 
 def remove_stopwords_recursive(words, stopwords):
@@ -38,11 +37,10 @@ def remove_stopwords_recursive(words, stopwords):
     head, tail = words[0], words[1:]
 
     if head in stopwords:
-        print(f" → Stopword removida: {head}")
+        print(f" -> Stopword removida: {head}")
         return remove_stopwords_recursive(tail, stopwords)
 
     return [head] + remove_stopwords_recursive(tail, stopwords)
-
 
 
 def intersect_recursive(posting_lists):
@@ -53,25 +51,25 @@ def intersect_recursive(posting_lists):
     if len(posting_lists) == 1:
         return posting_lists[0]
 
-    return posting_lists[0].intersection(
-        intersect_recursive(posting_lists[1:])
-    )
+    return posting_lists[0].intersection(intersect_recursive(posting_lists[1:]))
 
 
 def main():
+    stopwords = load_stopwords("stopwords.txt")
+    inv_index = load_index("index.txt")
 
-    stopwords = load_stopwords('stopwords.txt')
-    inv_index = load_index('index.txt')
-
-    print(f" Índice cargado correctamente.")
-    print(f"   → {len(inv_index)} palabras únicas indexadas.")
+    print(" Índice cargado correctamente.")
+    print(f"   -> {len(inv_index)} palabras únicas indexadas.")
 
     while True:
         try:
-            q = input("\nBuscar (escribe palabras, o 'exit' para salir): ").lower().strip()
+            q = (
+                input("\nBuscar (escribe palabras, o 'exit()' para salir): ")
+                .lower()
+                .strip()
+            )
 
-            if q == "exit":
-                print(" Saliendo del buscador...")
+            if q == "exit()":
                 break
 
             query_terms = q.split()
@@ -111,6 +109,7 @@ def main():
         except (KeyboardInterrupt, EOFError):
             print("\n Saliendo del buscador...")
             break
+
 
 if __name__ == "__main__":
     main()

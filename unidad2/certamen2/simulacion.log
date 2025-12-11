@@ -1,744 +1,218 @@
-{"timestamp":"2025-11-18T22:03:34.6129725-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:04-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6135272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:09-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6135272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:19-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6135272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:30-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:34-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:35-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:38-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:41-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:46-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:55-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6135272-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:04-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:19-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6135272-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:09-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:01-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:01-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:49-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:10-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:03-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:08-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:18-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:19-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:20-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:19-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:19-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:34-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:34-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:19-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:19-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:30-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:45-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:45-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:45-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:45-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:45-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6141753-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:37-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:37-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:24-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:47-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:47-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:47-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:47-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:47-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:56-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:00:56-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:03-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:10-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:10-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:10-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:13-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:13-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:20-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:00:38-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:00:53-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:00:53-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:08-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:23-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:23-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:23-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:23-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:23-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:33-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:33-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:33-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:33-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:33-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6147205-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:30-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:18-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:18-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:30-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:33-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:42-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:43-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:48-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:55-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6152722-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:50-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:50-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:01:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:01:47-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:03-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:09-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:45-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:45-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:01:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:10-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:35-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:35-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:43-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:58-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:01:58-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:03-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:00PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:01:47-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:01:48-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:19-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:25-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:31-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:33-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:02:03-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:02:03-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:02:25-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:10-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:10-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:10-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:13-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:13-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:02PM). Volviendo a LVT=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:41-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:50-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:18-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:18-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:48-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:48-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:34-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:13-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:13-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6158021-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:55-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:13-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:00-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:07-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:13-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:42-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:57-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:01:57-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:19-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:34-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:34-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:02PM). Volviendo a LVT=9:01PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:34-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:02:40-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:02:40-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:31-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:46-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:46-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:02PM). Volviendo a LVT=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:15-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:25-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:30-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:24-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:02:24-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:25-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:40-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:33-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:35-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:43-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:53-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:34-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:48-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:48-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:02:50-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:02:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:10-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:10-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:46-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:46-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:46-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:40-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:40-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:40-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:40-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:00-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:04-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:10-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:17-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:13-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:28-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6163267-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:25-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:35-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:37-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:38-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:43-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:15-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:15-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:28-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:28-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:45-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:28-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:28-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:30-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:30-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:48-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:54-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:56-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:56-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:38-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:53-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:53-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:53-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:53-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:53-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:58-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:05-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:07-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:03:45-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:35-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:33-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:48-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:57-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:07-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:12-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:58-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:58-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:58-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:04:58-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:22-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:22-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:43-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:58-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:50-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:50-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:48-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:48-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:48-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:48-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:50-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:03:50-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:00-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:15-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:16-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:18-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:29-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:31-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:35-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:40-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:49-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:55-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:59-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:06-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:03-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:03-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:02PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:03-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:03-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:03-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:12-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:58-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:58-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:50-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:50-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:50-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:52-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:52-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6168553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:15-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:15-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:10-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:11-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:12-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:35-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:04:54-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:09-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:09-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:09-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:09-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:15-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:15-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:15-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:19-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:04:19-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:14-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:21-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:58-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:03:58-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:08-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:09-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:13-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:12-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:27-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:27-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:05PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:31-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:33-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:34-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:08-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:25-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:25-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:13-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:16-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:27-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:27-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:40-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:27-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:30-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:30-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:25-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:25-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:31-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:47-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:31-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:05PM). Volviendo a LVT=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:31-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:31-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:31-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:40-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:55-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:55-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:10-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:10-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6173794-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:25-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:32-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:44-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:44-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:05:49-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:55-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:05:55-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:32-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:32-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:57-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:06:59-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:04-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:04-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:06-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:21-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:21-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:32-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:21-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:21-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:40-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:50-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:05:50-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:06:59-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:11-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:01-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:03-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:11-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:19-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:21-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:29-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:04:40-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:07-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:20-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:23-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:30-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:33-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:29-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:29-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:29-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:29-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:22-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:22-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:05PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:37-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:22-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:22-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:22-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:33-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:33-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:05PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:39-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:42-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:47-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:07:55-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:05-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:10-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:36-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:06:36-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:01-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:16-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:16-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:07PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:16-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:16-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:16-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:18-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:18-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:23-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:07PM). Volviendo a LVT=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:07:14-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:07:14-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6179098-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:37-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:26-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:49-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:49-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:06:57-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:33-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:33-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:33-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:37-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:37-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:05PM). Volviendo a LVT=9:04PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:16-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:07:20-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:07:35-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:12-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:12-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:07PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:12-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:12-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:12-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:37-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:37-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:48-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:48-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:07PM). Volviendo a LVT=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:07:35-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:08:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:26-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:26-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:30-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:45-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:37-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:46-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:46-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:19-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:38-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:39-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:54-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:07:54-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:45-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:07:47-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6184429-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:05:59-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:14-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:14-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:05PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:14-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:24-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:19-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:34-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:34-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:08PM). Volviendo a LVT=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:34-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:34-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:14-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:14-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:25-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:28-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:29-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:38-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:02-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:02-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:28-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:43-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:08:20-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:08:20-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:46-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:08:24-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:37-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:25-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:31-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:46-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:43-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:08PM). Volviendo a LVT=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:43-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:43-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:43-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:50-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:08:56-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:03-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:05-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:11-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:20-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:30-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:38-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:47-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:37-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:08:46-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:01-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:01-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:46-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:46-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:46-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:46-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:48-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:44-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:44-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:08PM). Volviendo a LVT=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:08:39-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:08:39-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:09:03-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:20-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:20-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:09PM). Volviendo a LVT=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:20-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:20-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:20-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:09PM). Volviendo a LVT=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:35-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:48-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:48-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:48-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:48-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:09:57-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:05-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6189745-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:44-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:44-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:35-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:09PM). Volviendo a LVT=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:55-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:06PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:55-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:06PM). Volviendo a LVT=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:11-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:20-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:09:18-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:09:18-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:09:57-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:44-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:53-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:08:53-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:26-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:55-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:55-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:06PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:06:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:02-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:02-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:19-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:34-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:23-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:33-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:09:38-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:09:53-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:09:53-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:11-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:34-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:42-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:57-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:07PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:57-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:07PM). Volviendo a LVT=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:57-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:34-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:42-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:50-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:47-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:09:47-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:26-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:26-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:10PM). Volviendo a LVT=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:26-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:57-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:07PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:07:57-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:10-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:10-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:25-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:10:59-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:05-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:13-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:20-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:10:12-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:10:12-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:23-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:38-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:26-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:26-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6195019-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:25-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:08PM). Volviendo a LVT=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:10-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:21-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:10:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:38-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:10PM). Volviendo a LVT=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:38-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:38-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:38-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:35-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:35-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:10-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:16-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:31-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:27-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:35-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:48-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:48-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:10:50-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:11:05-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:11:05-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:11:20-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:42-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:57-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:57-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:31-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:10:59-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:11PM). Volviendo a LVT=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:40-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:46-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:11:53-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:10:49-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:10:49-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:11:46-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:08:50-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:05-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:08PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:05-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:08PM). Volviendo a LVT=9:08PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:05-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:00-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:05-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:09-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:14-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:11:35-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:11:35-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:12:09-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:12:24-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:12:24-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:12PM). Volviendo a LVT=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:12:24-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:12:24-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:05-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:11-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:28-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:28-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:11PM). Volviendo a LVT=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6200298-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:34-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:12:24-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:11-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:30-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:45-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:09PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:45-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:09PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:09:47-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:10:02-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:10:02-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:10:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:10PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:14-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:22-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:41-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:46-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:55-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:12:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:13:00-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 3 (T_Evento: 9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:13:07-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:13:09-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 2 (T_Evento: 9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:10:20-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:10:20-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:10PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:20-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:20-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:37-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:37-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:11PM). Volviendo a LVT=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:12:01-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:12:01-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:12:41-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:21-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:11PM). Volviendo a LVT=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:42-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:37-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:37-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:37-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:42-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:11PM). Volviendo a LVT=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:50-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:50-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:11:53-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:36-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:40-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:11PM)"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:12PM). Volviendo a LVT=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.620553-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:55-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:11:55-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:11PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:12:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:12:20-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:12:20-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:12:46-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:13:01-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:13:01-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:13PM). Volviendo a LVT=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:13:01-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:15-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:15-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:12PM). Volviendo a LVT=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:13:01-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:13PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-3","lvt":"1969-12-31T21:13:01-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:08-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:14-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:29-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:29-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:47-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:47-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:12PM). Volviendo a LVT=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:47-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:47-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:47-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:49-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:49-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:12:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:10-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:12PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:10-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:12PM). Volviendo a LVT=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:10-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:10-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:13PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:13-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:13-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:13PM). Volviendo a LVT=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:13-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:13-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:13PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:13-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:22-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:13PM)"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:22-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:13PM). Volviendo a LVT=9:12PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:22-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:22-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:13PM"}
-{"timestamp":"2025-11-18T22:03:34.6210879-03:00","hilo_id":"Worker-2","lvt":"1969-12-31T21:13:22-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:13PM)"}
+{"timestamp":"2025-11-24T20:17:00.9699341-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:10-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:19-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 14 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:20-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 15 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:28-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 1 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:19-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Worker-15","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Worker-15","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:29-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 7 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 14 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:00:29-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9704782-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:25-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:25-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-1","lvt":"1969-12-31T21:00:28-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:42-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 6 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:50-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 4 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:00:42-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-15","lvt":"1969-12-31T21:00:20-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:56-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 14 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:00:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 5 (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:34-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:34-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:00PM). Volviendo a LVT=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:34-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:34-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:47-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:47-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:00:56-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:00:50-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:01-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 11 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:08-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 14 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:00PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:00:58-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:15-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:18-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:24-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 4 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 13 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:01:05-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:01:05-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:01:24-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:11-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:11-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:11-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:11-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9710134-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:01-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:40-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 11 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:48-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 11 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:01:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 7 (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:00-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 4 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:00:44-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:00:44-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-13","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-13","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-13","lvt":"1969-12-31T21:01:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:11-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:15-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:30-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:30-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:30-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:30-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:30-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:16-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:16-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:40-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:55-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:01PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:10-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 8 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:13-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 8 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:01:39-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:01:39-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:02:00-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:55-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:01PM). Volviendo a LVT=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:55-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:55-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:01:55-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:22-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:25-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:33-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:01:33-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:02:22-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:01:58-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9715469-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:25-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:25-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:02PM). Volviendo a LVT=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:25-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:25-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:25-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:32-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 15 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:41-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 9 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:48-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:02:52-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 7 (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-15","lvt":"1969-12-31T21:00:35-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-15","lvt":"1969-12-31T21:00:35-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-15","lvt":"1969-12-31T21:02:32-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:00-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:10-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 5 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:13-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 6 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:01:13-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:01:13-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:03:10-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:02:13-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:02:13-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:02:52-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-9","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-9","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-9","lvt":"1969-12-31T21:02:41-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:02:37-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:02:37-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:25-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:02PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:21-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:24-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 12 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:34-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 4 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:40-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 0 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:02:15-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:02:15-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:03:34-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9722006-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:00:57-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:00:57-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:03:13-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:45-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 5 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:46-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 5 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:02:48-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:03-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:03-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:03-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:03-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:03-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:15-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:15-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:21-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:36-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:40-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:02:40-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-0","lvt":"1969-12-31T21:03:40-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:03:25-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:03:25-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:03:45-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:00-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:00-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:00-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:49-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 14 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:03:58-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 7 (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9727272-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:36-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:03PM). Volviendo a LVT=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:36-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:36-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-12","lvt":"1969-12-31T21:03:36-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:23-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:01:23-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:01PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-14","lvt":"1969-12-31T21:03:49-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:01-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 4 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:07-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 6 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:13-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 8 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:03:28-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:03:28-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:04:07-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:03:07-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:03PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:03:07-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-7","lvt":"1969-12-31T21:03:58-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:23-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 6 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:31-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 10 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:41-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 11 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:50-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 8 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:04:59-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 8 (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:08-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 5 (T_Evento: 9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:18-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 8 (T_Evento: 9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Scheduler","lvt":"1969-12-31T21:05:28-03:00","evento":"EnvioExterno","mensaje":"Enviando a Worker 4 (T_Evento: 9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:03:49-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:03:49-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:03PM"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:04:01-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:04:16-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:04:16-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-4","lvt":"1969-12-31T21:05:28-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-10","lvt":"1969-12-31T21:00:00-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-10","lvt":"1969-12-31T21:00:00-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:00PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-10","lvt":"1969-12-31T21:04:31-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:28-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:02:28-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:04:13-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:04:28-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:04:28-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:04:50-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:05-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:05-03:00","evento":"RollbackInicio","mensaje":"Straggler (T=9:04PM). Volviendo a LVT=9:04PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:05-03:00","evento":"RollbackFin","mensaje":"ReprocesamientoFinalizado"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:05-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:05-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:14-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:14-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:05PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-8","lvt":"1969-12-31T21:05:18-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:04:22-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:04:22-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-6","lvt":"1969-12-31T21:04:23-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:02:03-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:02:03-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:02PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-11","lvt":"1969-12-31T21:04:41-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:04PM)"}
+{"timestamp":"2025-11-24T20:17:00.9732533-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:01-03:00","evento":"RecepcionExterno","mensaje":"Recibido (T_Evento: 9:05PM)"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:04:01-03:00","evento":"Checkpoint","mensaje":"Checkpoint creado en T=9:04PM"}
+{"timestamp":"2025-11-24T20:17:00.9737804-03:00","hilo_id":"Worker-5","lvt":"1969-12-31T21:05:08-03:00","evento":"ProcesoInterno","mensaje":"Procesando evento interno (T=9:05PM)"}

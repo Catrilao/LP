@@ -139,7 +139,7 @@ swipl -s arbol.pl
    - X es hermana del padre de Y
    - X es hermana de la madre de Y
 
-5. **ancestro(X, Y)**: X es ancestro de Y (RECURSIVO)
+5. **ancestro(X, Y)**: X es ancestro de Y
 
    - Caso base: X es padre de Y
    - Caso base: X es madre de Y
